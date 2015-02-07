@@ -159,12 +159,12 @@ document.getElementById('colorResponse').style.color = 'blue'
 
 <h2>What's your favorite color? (Change this so it says: I like that color.)</h2>
 Color:
-<input id="colorBox">
-<input type="button" value="enter" id="colorButton">
+<input id="colorBox1">
+<input type="button" value="enter" id="colorButton1">
 <span id="colorResponse"></span>
 <script>
-document.getElementById('colorButton').onclick = function(){
-  name = document.getElementById('colorBox').value
+document.getElementById('colorButton1').onclick = function(){
+  name = document.getElementById('colorBox1').value
   document.getElementById('colorResponse').textContent = 'Hi, ' + name + '! I like that color!'
 }
 </script>
