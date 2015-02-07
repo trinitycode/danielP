@@ -78,7 +78,24 @@ document.getElementById('divideButton').onclick = function(){
 <h2>Subtraction (Make this one by copying the addition code)</h2>
 Select and Copy the addition code (ctrl+c) and paste it here (ctrl+v).
 Go through and change add to subtract everywhere. Also, change the plus sign to a minus sign.
-
+h2>Division (Fill in this formula yourself)</h2>
+<input value="1" id="subtractBox1">
+subtract by
+<input value="2" id="subtractBox2">
+<input type="button" value="equals" id="subtractButton">
+<span id="Result"></subtract>
+<script>
+document.getElementById('subtractButton').onclick = function(){
+  result = ''
+  // Get the two numbers from the boxes.
+  divide1 = Number(document.getElementById('subtractBox1').value)
+  divide2 = Number(document.getElementById('subtractBox2').value)
+  // Divide the two numbers together. Slash / means divide.
+  // Write the division code yourself.
+  result = subtract1 - subtract2
+  document.getElementById('divideResult').textContent = result
+}
+</script>
 
 
 <h2>Parimeter of a Rectangle (Fill in the formula)</h2>
